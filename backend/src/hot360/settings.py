@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'login'
 
 ]
 
@@ -79,7 +80,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'hotdb',
-        'USERNAME': 'chudi',
+        'USERNAME': 'EJITECH',
         'PASSWORD': '72310242cj.',
         'HOST': 'localhost',
         'PORT': '5432',
